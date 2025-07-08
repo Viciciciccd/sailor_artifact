@@ -38,7 +38,8 @@ run-sailor:
 	diff -bur CSVs expected_results/reference_CSVs
 
 generate-tests:
-	python3 test-generator/generate-tests.py
+	mkdir -p test-generator/tests
+	python3 test-generator/generate_tests.py
 	diff -bur test-generator/tests expected_results/tests
 
 clean: 
