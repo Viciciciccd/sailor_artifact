@@ -10,3 +10,6 @@
 [submodule "serval"]
 	path = serval
 	url = https://github.com/uw-unsat/serval-sosp19.git
+[submodule "AARCHMRS"]
+	path = AARCHMRS
+	url = https://git.kernel.org/pub/scm/linux/kernel/git/maz/AARCHMRS.git

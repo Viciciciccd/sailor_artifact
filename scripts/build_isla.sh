@@ -1,6 +1,6 @@
 cd isla/
 echo " Applying patch! "
-git apply ../patches/isla.patch || exit 
+git apply ../patches/isla_arm.patch || exit 
 echo " Building Isla..." 
 cargo build --release
 cd ../

@@ -1,0 +1,18 @@
+:option -non_lexical_flow
+:option -no_lexp_bounds_check
+:option -memo_z3
+:option -no_warn
+:option -undefined_gen
+:option -o translate_address
+:option -c_no_main
+:option -c_prefix sail_
+:option -Oconstant_fold
+:option -c_fold_unit asl_prerr_string
+:load model/prelude.sail model/no_devices.sail model/aarch_types.sail model/aarch_mem.sail
+:rewrites c
+:slice_roots AArch64_TranslateAddress
+:slice
+:fix_registers c, __trickbox_enabled=false
+:recheck_types
+:compile c
+:quit

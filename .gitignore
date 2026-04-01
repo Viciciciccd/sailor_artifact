@@ -1,2 +1,4 @@
 isla_traces/
 isla_traces_dir/
+arm_traces*.txt
+configs/*.ir
