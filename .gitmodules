@@ -3,13 +3,10 @@
 	url = https://github.com/riscv/sail-riscv.git
 [submodule "isla"]
 	path = isla
-	url = git@github.com:Viciciciccd/isla.git
+	url = https://github.com/rems-project/isla.git
 [submodule "keystone"]
 	path = keystone
 	url = https://github.com/keystone-enclave/keystone.git
 [submodule "serval"]
 	path = serval
 	url = https://github.com/uw-unsat/serval-sosp19.git
-[submodule "AARCHMRS"]
-	path = AARCHMRS
-	url = https://git.kernel.org/pub/scm/linux/kernel/git/maz/AARCHMRS.git
